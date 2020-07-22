@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ handleChange, handleSubmit, post }) => {
+export default ({ handleChange,  post }) => {
   return (
     <div >
       <form>
@@ -31,9 +31,6 @@ export default ({ handleChange, handleSubmit, post }) => {
             placeholder="échantillonnage"
           />
         </div>
-        <button className="btn btn-primary" onClick={handleSubmit}>
-          Submit
-        </button>
       </form>
 
     </div>
