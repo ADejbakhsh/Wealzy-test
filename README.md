@@ -1,2 +1,2 @@
 # Wealzy-test
-Le Test technique de wealzy.com/
+Le Test technique de wealzy.com
