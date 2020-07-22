@@ -36,6 +36,7 @@ export default class Prettygraph extends React.Component {
         <div className="post-container">
           <Chart
             width={'100%'}
+            
             height={'300pt'}
             chartType="ColumnChart"
             loader={<div>Loading Chart</div>}
@@ -43,6 +44,9 @@ export default class Prettygraph extends React.Component {
               ['Name of the thing', 'échantillonnage', 'moyenne', 'mediane'],
               ["data", Number(this.state.post.echantillonnage), Number(this.state.post.moyenne), Number(this.state.post.mediane)],
             ]}
+            options={{
+              chartArea: { width: '60%' }
+            }}
           />
         </div>
       </div>
