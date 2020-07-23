@@ -2,7 +2,7 @@
 # Wealzy-test
 Le Test technique de wealzy.com
 
-fist:
+First:
 
 ```$ git clone https://github.com/ADejbakhsh/Wealzy-test.git```
 
